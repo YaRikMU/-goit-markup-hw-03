@@ -74,7 +74,9 @@ ul {
 }
 
 /* ============Header============= */
-
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -395,6 +397,7 @@ padding: 30px 61px 30px 52px;
   max-width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #EEEEEE;
 }
 .work-item:nth-child(3n) {
   margin-right: 0;
