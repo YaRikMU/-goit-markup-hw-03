@@ -32,6 +32,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
+  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -187,7 +188,7 @@ ul {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 200px;
+  
 
   margin-bottom: 30px;
 
@@ -207,6 +208,7 @@ ul {
   cursor: pointer;
 }
 .hero-btn {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
@@ -218,7 +220,7 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
+
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -233,6 +235,8 @@ ul {
 }
 
 /*================= Особенности============== */
+/* 270пх на лы */
+/* имедж блок */
 .particular-list {
 display: flex;
  align-items: center;
@@ -286,6 +290,9 @@ padding-top: 0;
 margin-right: 0;
 }
 /* ==============Наша команда============= */
+
+/* р3 и р в див */
+
 .our-team {
   background-color: var(--our-team-bg-color);
 }
