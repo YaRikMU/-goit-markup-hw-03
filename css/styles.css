@@ -84,6 +84,7 @@ ul {
 }
 /* ============Header============= */
 
+
 .header-container {
   display: flex;
   align-items: center;
@@ -178,8 +179,9 @@ ul {
 }
 /* =================hero================ */
 .hero {
-  display: block;
-  background-color: var(--secondary-bg-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+   background-color: var(--secondary-bg-color);
 }
 .hero-title {
   width: 696px;
@@ -208,16 +210,16 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
-  margin-bottom: 200px;
   min-width: 200px;
   max-width: 240px;
+  
   background-color: var(--accent-color);
   color: var(--buuton-text-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
-  align-items: center;
+
   text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
@@ -231,6 +233,21 @@ ul {
 }
 
 /*================= Особенности============== */
+.particular-list {
+display: flex;
+ align-items: center;
+}
+.navi-item {
+  
+  margin-right: 30px;
+}
+.navi-item {
+  margin-right:last-child: 0;
+}
+.navi-item .title {
+  margin-bottom: 10px;
+
+}
 .title {
   font-weight: 700;
   font-size: 14px;
@@ -244,7 +261,12 @@ ul {
 }
 
 /* ===============чем занимаемся============ */
+
+.examples {
+padding-top: 0;
+}
 .heading {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -252,12 +274,36 @@ ul {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-
+.examples-list {
+  display: flex;
+   align-items: center;
+}
+.examples-item
+ {
+  margin-right:30px;
+}
+.examples-item:last-child{
+margin-right: 0;
+}
 /* ==============Наша команда============= */
 .our-team {
   background-color: var(--our-team-bg-color);
 }
+.team-list{
+  display: flex;
+}
+.team-item {
+  margin-right: 30px;
+  
+}
+.team-item:last-child {
+margin-right: 0;
+}
+.img-item{
+  margin-bottom: 30px;
+}
 .title-list {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -266,6 +312,7 @@ ul {
   color: var(--title-text-color);
 }
 .text-job {
+  margin-bottom: 10px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -280,11 +327,16 @@ ul {
 
   background-color: var(--secondary-bg-color);
 }
+.footer-link {
+  display: block;
+  margin-bottom: 20px;
+}
 .logo-footer {
   color: var(--buuton-text-color);
 }
 
 .address {
+  margin-bottom: 9px;
   color: var(--buuton-text-color);
   font-style: normal;
 }
@@ -294,10 +346,21 @@ ul {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
+.footer-mail{
+  display: block;
+   margin-bottom: 9px;
+}
 /* ==============Портфолио кнопки=============== */
 
+.list-projects{
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+}
 .button {
+  padding: 6px 22px;
+  
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -307,6 +370,13 @@ ul {
   background-color: #f5f4fa;
   border-radius: inherit;
   border: inherit;
+}
+.item-projects{
+margin-right: 8px;
+}
+
+.item-projects:last-child{
+margin-right: 0;
 }
 .button:hover,
 .button:focus {
